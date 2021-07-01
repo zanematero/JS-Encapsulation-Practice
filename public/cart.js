@@ -149,3 +149,15 @@ async function addSandwich() {
     items.push(newSandwich)
     selectSandwich(newSandwich)
 }
+
+function changeSelectedSandwichName(value) {
+    selectedSandwich.name = value
+    saveSelectedSandwich()
+    renderCart()
+}
+
+function changeSelectedSandwichBread(value) {
+    selectedSandwich.bread = value
+    saveSelectedSandwich()
+    renderCart()
+}
