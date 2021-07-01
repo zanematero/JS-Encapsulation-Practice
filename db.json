@@ -12,19 +12,6 @@
         "Lettuce",
         "Tomatoes"
       ]
-    },
-    {
-      "id": 2,
-      "name": "Avery's Sandwich",
-      "bread": "Sourdough",
-      "ingredients": [
-        "Cheddar Cheese",
-        "Mayo",
-        "Bacon",
-        "Lettuce",
-        "Tomatoes",
-        "Ham"
-      ]
     }
   ],
   "ingredients": [
