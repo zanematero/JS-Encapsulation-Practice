@@ -16,14 +16,14 @@
     {
       "id": 2,
       "name": "Avery's Sandwich",
-      "bread": "Wheat",
+      "bread": "Sourdough",
       "ingredients": [
         "Cheddar Cheese",
         "Mayo",
-        "Ham",
         "Bacon",
         "Lettuce",
-        "Tomatoes"
+        "Tomatoes",
+        "Ham"
       ]
     }
   ],

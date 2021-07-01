@@ -2,9 +2,6 @@
 //  This will be updated after we fetch.
 let ingredients = [];
 
-// The sandwich selected in the cart (defaults to the first sandwich)
-let selectedSandwich = null;
-
 // Updates the DOM to display a list of ingredients
 function renderIngredientList() {
     const ingredientList = document.querySelector('.ingredient-list');
@@ -61,6 +58,6 @@ function toggleIngredient(ingredient) {
         selectedSandwich.ingredients.push(ingredient.name)
     }
     saveSelectedSandwich()
-    renderSandwichList()
+    renderCart()
     renderIngredientList()
 }

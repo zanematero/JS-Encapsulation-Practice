@@ -2,20 +2,20 @@
 async function main() {
     // Fetches an array of ingredients, and an array of sandwiches in the users
     //  cart, at the same time
-    let [fetchedIngredients, fetchedCart] = await getAll(`http://localhost:3001/ingredients`, `http://localhost:3001/cart`)
+    let [fetchedIngredients, fetchedCartItems] = await getAll(`http://localhost:3001/ingredients`, `http://localhost:3001/cart`)
 
     // Save what we fetched to global variables;
     ingredients = fetchedIngredients
-    cart = fetchedCart
+    items = fetchedCartItems
 
     // Select the first sandwich on page load
-    selectSandwich(cart[0])
+    selectSandwich(items[0])
 
     // Display the ingredients we fetched
     renderIngredientList();
 
     // Display the sandwiches we fetched
-    renderSandwichList();
+    renderCart();
 
     // Attach event listener to the 'Add Sandwich' button
     let addButton = document.querySelector('.add-button');
@@ -28,6 +28,7 @@ async function main() {
     nameInput.addEventListener('input', (e) => {
         selectedSandwich.name = e.target.value
         saveSelectedSandwich()
+        renderCart()
     })
 
     // Attach event listeners to the radio inputs for selecting a type of bread
@@ -36,7 +37,7 @@ async function main() {
         radioInput.addEventListener('click', () => {
             selectedSandwich.bread = radioInput.value
             saveSelectedSandwich()
-            renderSandwichList()
+            renderCart()
         })
     })
 }
