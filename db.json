@@ -1,0 +1,110 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "name": "Avery's Sandwich",
+      "bread": "Sourdough",
+      "ingredients": [
+        "Cheddar Cheese",
+        "Mayo",
+        "Ham",
+        "Bacon",
+        "Lettuce",
+        "Tomatoes"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Avery's Sandwich",
+      "bread": "Wheat",
+      "ingredients": [
+        "Cheddar Cheese",
+        "Mayo",
+        "Ham",
+        "Bacon",
+        "Lettuce",
+        "Tomatoes"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Ham",
+      "calories": "70",
+      "imageURL": "./assets/ham.png",
+      "description": "Black forest deliciousness."
+    },
+    {
+      "name": "Turkey",
+      "calories": "60",
+      "imageURL": "./assets/turkey.png",
+      "description": "Smoky and tender."
+    },
+    {
+      "name": "Bacon",
+      "calories": "300",
+      "imageURL": "./assets/bacon.png",
+      "description": "Keeping it crispy."
+    },
+    {
+      "name": "Lettuce",
+      "calories": "5",
+      "imageURL": "./assets/lettuce.png",
+      "description": "Get you some fiber."
+    },
+    {
+      "name": "Tomatoes",
+      "calories": "15",
+      "imageURL": "./assets/tomatoes.png",
+      "description": "If you want to put a fruit on your sandwich, we won't judge (I mean we will, but don't let that stop you)."
+    },
+    {
+      "name": "Onions",
+      "calories": "5",
+      "imageURL": "./assets/onions.png",
+      "description": "Every order comes with one (1) breath mint. Please use it before speaking to us again."
+    },
+    {
+      "name": "Cheddar Cheese",
+      "calories": "110",
+      "description": "As sharp as our quips.",
+      "imageURL": "./assets/cheddar-cheese.png"
+    },
+    {
+      "name": "American Cheese*",
+      "calories": "80",
+      "description": "*Not really cheese.",
+      "imageURL": "./assets/american-cheese.png"
+    },
+    {
+      "name": "Parmesan Cheese",
+      "calories": "10",
+      "imageURL": "./assets/parmesan-cheese.png",
+      "description": "Aged to perfection."
+    },
+    {
+      "name": "Mayo",
+      "calories": "200",
+      "imageURL": "./assets/mayo.png",
+      "description": "Adds a layer of richness."
+    },
+    {
+      "name": "Oil & Vinegar",
+      "calories": "90",
+      "imageURL": "./assets/oil-vinegar.png",
+      "description": "For a spring-time feel."
+    },
+    {
+      "name": "Salt",
+      "calories": "0",
+      "imageURL": "./assets/salt.png",
+      "description": "A grain of which we take with each of our reviews on Yelp."
+    },
+    {
+      "name": "Pepper",
+      "calories": "0",
+      "imageURL": "./assets/pepper.png",
+      "description": "But not the spicy kind."
+    }
+  ]
+}
